@@ -1,0 +1,134 @@
+.attribution { font-size: 11px; text-align: center; padding-top: 40px; }
+.attribution a {font-size: 11px; color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url(../fonts/Epilogue/Epilogue-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Epilogue';
+    font-weight: 500;
+    font-size: 18px;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.but-header {
+    border: none;
+
+    background-color: hsl(0, 0%, 98%);
+
+    padding: 15px;
+    padding-inline: 20px;
+    gap: 5px;
+
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+.but-header:hover {
+    color: hsl(0, 0%, 8%);
+}
+.but-header img {
+    padding-left: 5px;
+}
+.register {
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 16px;
+}
+.register:hover {
+    border-color: hsl(0, 0%, 8%);
+}
+
+
+.but-main {
+    padding: 20px;
+    width: 200px;
+
+    cursor: pointer;
+
+    border: 2px solid hsl(0, 0%, 8%);
+    border-radius: 16px;
+
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+}
+.but-main:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+.header-container {
+    padding-inline: 50px;
+    
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    height: 100px;
+}
+.logo-container img {
+    position: relative;
+    transform: translateY(5px);
+}
+.header-interactions {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+    padding-top: 50px;
+    width: 80%;
+
+}
+.main-leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    padding-top: 100px;
+    width: 50%;
+}
+.main-rightSide{
+    width: 50%;
+}
+.main-content .main-rightSide img {
+    width: 500px;
+}
+.main-p {
+    width: 70%;
+    line-height: 150%;
+
+    color: hsl(0, 0%, 41%);
+}
+
+.main-clientIcons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
