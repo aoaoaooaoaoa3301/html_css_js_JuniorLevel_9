@@ -200,3 +200,69 @@ ul li {
     align-items: center;
     gap: 40px;
 }
+
+
+
+
+.mobile-vers {
+    display: none;
+}
+.desktop-vers {
+    display: block;
+}
+@media (max-width: 375px){
+    .mobile-vers {
+        display: block;
+    }
+    .desktop-vers {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        
+        padding: 20px;
+
+        justify-content: space-between;
+    }
+    .but-nav-bar {
+        border: none;
+        background-color: hsl(0, 0%, 98%);
+        cursor: pointer;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        gap: 20px;
+    }
+    .main-p {
+        text-align: center;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .but-main {
+        width: 100px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .main-clientIcons{
+        gap: 20px;
+    }
+    .main-clientIcons img{
+        width: 50px;
+    }
+}
